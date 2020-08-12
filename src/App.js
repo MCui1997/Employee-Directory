@@ -1,8 +1,8 @@
 import React from "react";
-import JSXVariables from "./components/JSXVariables";
+import Header from "./components/Header.js";
 
 function App() {
-  return <JSXVariables />;
+  return <Header />;
 }
 
 export default App;
