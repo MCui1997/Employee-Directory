@@ -1,23 +1,19 @@
 import React from "react";
-import Header from "./components/Header.js";
-import Navbar from "./components/Navbar.js";
+import Main from "./components/Main";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
 
-import "./styles/App.css"
+import "./App.css";
 
 function App() {
+  return (
+    <div className="App">
 
-  return  (
+        <Header />
+        <Main />
 
-    <div className = "App">
-
-          <Header />;
-          <Navbar />;
-          
     </div>
-  )
-  
-  
-
+  );
 }
 
 export default App;

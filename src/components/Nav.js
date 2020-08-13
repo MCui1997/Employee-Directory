@@ -1,8 +1,8 @@
 import React from "react";
-import Searchbar from "./Searchbar.js";
+import SearchName from "./SearchName.js";
+import "../styles/Nav.css";
 
-
-function Navbar() {
+function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <button
@@ -21,10 +21,10 @@ function Navbar() {
           <SearchDOB />
         </div> */}
         <div className="search-area col-4">
-          <Searchbar />
+          <SearchName />
         </div>
       </div>
     </nav>
   );
 }
-export default Navbar;
+export default Nav;

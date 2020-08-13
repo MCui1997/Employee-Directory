@@ -1,8 +1,9 @@
 import React, { useContext } from "react";
-import DataAreaContext from "../utils/DataAreaContext";
+import "../styles/SearchName.css";
+import MainContext from "../utils/MainContext";
 
-const Searchbar= () => {
-  const context = useContext(DataAreaContext);
+const SearchName = () => {
+  const context = useContext(MainContext);
 
   return (
     <div className="searchbox">
@@ -23,4 +24,4 @@ const Searchbar= () => {
     </div>
   );
 }
-export default Searchbar;
+export default SearchName;
