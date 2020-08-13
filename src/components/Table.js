@@ -1,17 +1,18 @@
 import React, { useContext } from "react";
-import DataBody from "./Body";
+import Body from "./Body";
 import MainContext from "../utils/MainContext";
 
-const DataTable = () => {
+const Table = () => {
   const context = useContext(MainContext);
 
   return (
 
-    <div className="datatable mt-5">
+    <div className="datatable">
       <table
         id="table"
-        className="table table-striped table-hover table-condensed"
-      >
+        className="table table-striped">
+
+        
         <thead>
           <tr>
             {context.developerState.headings.map(({ name, width }) => {
@@ -20,11 +21,7 @@ const DataTable = () => {
                   className="col"
                   key={name}
                   style={{ width }}
-                  onClick={() => {
-                    // context.handleSort(name.toLowerCase());
-                    context.handleSort(name);
-                  }}
-                >
+                  onClick={() => {context.handleSort(name);}}>
                   {name}
                   <span className="pointer"></span>
                 </th>
@@ -33,10 +30,10 @@ const DataTable = () => {
           </tr>
         </thead>
 
-        <DataBody />
+        <Body />
       </table>
     </div>
   );
 }
 
-export default DataTable;
+export default Table;
