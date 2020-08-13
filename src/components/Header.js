@@ -3,8 +3,10 @@ import '../styles/Header.css';
 
 function Header () {
     return (
-      <div className="jumbotron">
+      
+      <div class ="jumbotron">
       <h1>Employee Directory</h1>
+
   </div>
     )
   }
