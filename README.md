@@ -4,6 +4,7 @@
 
 This employee directory is made using React.js and splits up the application's UI into components to manage component state and respond to user events. An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
+[Deployed](https://mcui1997.github.io/Employee-Directory//)
 
 ## Features
 
