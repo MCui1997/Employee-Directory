@@ -10,7 +10,7 @@ This employee directory is made using React.js and splits up the application's U
 
 A table of random users is generated using the random user generator API.
 
-  * Able to sort using name or email
+  * Able to sort using name or email or phone
   * Able to filter using name
 
 ## User Story
