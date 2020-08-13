@@ -8,13 +8,10 @@ This employee directory is made using React.js and splits up the application's U
 
 ## Features
 
-Given a table of random users, when the user loads the page, a table of employees should render. 
+A table of random users is generated using the random user generator API.
 
-The user should be able to:
-
-  * Sort the table by at least one category
-
-  * Filter the users by at least one property.
+  * Able to sort using name or email
+  * Able to filter using name
 
 ## User Story
 
@@ -24,5 +21,9 @@ As a user, I want to be able to view my entire employee directory at once so tha
 
 ## Installation and Usage
 
+On local device, after cloning the repo, simply run npm install and then npm start.
+
 
 ## Screenshots
+
+![Alt text](/screenshots/main.PNG "Main")
